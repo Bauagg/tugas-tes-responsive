@@ -1,0 +1,257 @@
+.container1 {
+    width: 100%;
+    background-image: url('https://i0.wp.com/media.dekoruma.com/article/2022/08/02235806/background-ruang-tamu.jpg?resize=800%2C600&ssl=1');
+}
+
+.conten1 {
+    width: 500px;
+    border: 2px solid #43ea33;
+    margin: auto;
+    padding: 20px;
+    margin-top: 178px;
+}
+
+.btnReadMore {
+    background-color: #43ea33;
+    border: none;
+    display: block;
+    margin: auto;
+    padding: 10px 15px;
+    margin-top: 50px;
+    margin-bottom: 178px;
+}
+
+.imageKamarTidur {
+    width: 100%;
+}
+
+.border {
+    box-shadow: bisque;
+    border: 10px solid rgb(186, 185, 185);
+    margin-top: 80px;
+    padding: 30px;
+}
+
+.btn2 {
+    border: 1px solid rgb(67, 234, 52);
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.conten2 {
+    background-image: url('https://down-id.img.susercontent.com/file/195f228efa52fb725f95c50b84437631');
+    padding-top: 100px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageHero {
+    width: 100%;
+}
+
+.btn3 {
+    border: 1px solid rgb(67, 234, 52);
+    padding: 10px 25px;
+    background-color: rgba(255, 255, 255, 0);
+    display: block;
+    margin: auto;
+}
+
+.conten3 {
+    background-color: #e7e7ff;
+}
+
+.btn4 {
+    border: 1px solid #e7e7ff;
+    padding: 5px 25px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0 20px;
+}
+
+.btn4:hover {
+    border: 1px solid rgb(67, 234, 52);
+    color: #43ea33;
+}
+
+.imagesProduct {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+
+.btnLeft {
+    position: absolute;
+    width: 50px;
+    border-right: none;
+    border-top: 2px solid #43ea33;
+    border-bottom: 2px solid #43ea33;
+    border-left: 2px solid #43ea33;
+    top: 100px;
+    left: -50px;
+}
+
+.btnRigt {
+    position: absolute;
+    width: 50px;
+    border-left: none;
+    border-top: 2px solid #43ea33;
+    border-bottom: 2px solid #43ea33;
+    border-right: 2px solid #43ea33;
+    top: 100px;
+    right: -50px;
+}
+
+.iconProfil {
+    width: 74px;
+    height: 74px;
+    border-radius: 100%;
+    border: 2px solid #43ea33;
+    margin: auto;
+}
+
+.imageProfile {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.btnRigt1 {
+    position: absolute;
+    width: 50px;
+    border-left: none;
+    border-top: 2px solid #43ea33;
+    border-bottom: 2px solid #43ea33;
+    border-right: 2px solid #43ea33;
+    bottom: 100px;
+    right: 100px;
+}
+
+.btnLeft1 {
+    position: absolute;
+    width: 50px;
+    border-right: none;
+    border-top: 2px solid #43ea33;
+    border-bottom: 2px solid #43ea33;
+    border-left: 2px solid #43ea33;
+    bottom: 100px;
+    left: 100px;
+}
+
+.conten4 {
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
+
+.containerImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imageRuangan {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.contenImage {
+    position: absolute;
+    background-color: #00000000;
+    width: 260px;
+    height: 260px;
+    top: 20px;
+    right: 20px;
+    color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contenImage:hover {
+    background-color: #42ea3350;
+    color: white;
+}
+
+.conten5 {
+    background-color: #6b6b6b;
+    color: white;
+}
+
+.btnContact {
+    border: 1px solid #43ea33;
+    padding: 10px 15px;
+    background-color: #00000000;
+    color: #43ea33;
+}
+
+.containerBtnContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    background-color: #6b6b6b;
+    padding: 20px;
+}
+
+.spanFooter {
+    color: #43ea33;
+}
+
+@media screen and (max-width: 948px) {
+
+
+    .mobileContenResidential {
+        margin-top: 50px;
+    }
+
+    .imageHero {
+        margin-top: 50px;
+        margin-bottom: 90px;
+    }
+
+    .btnLeft {
+        display: none;
+    }
+
+    .btnRigt {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 655px) {
+    .conten1 {
+        width: 100%;
+    }
+
+    .btnAll {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btn4 {
+        width: 100%;
+        border: 1px solid #42ea3300;
+        margin: 10px;
+    }
+
+    .btn4:hover {
+        border: 1px solid #43ea33;
+    }
+
+    .btnLeft {
+        display: none;
+    }
+
+    .btnRigt {
+        display: none;
+    }
+}
